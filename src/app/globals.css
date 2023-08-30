@@ -35,7 +35,9 @@ body {
   z-index: -1;
   border: 1px solid red
 } */
-
+html{
+  scroll-behavior: smooth !important;
+}
 .logo span, .proffession{
   color: rgb(35, 206, 107);
 }
