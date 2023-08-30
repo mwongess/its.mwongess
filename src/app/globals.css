@@ -41,6 +41,6 @@ html{
 .logo span, .proffession{
   color: rgb(35, 206, 107);
 }
-.contact-me{
+.contact-me, .send-btn{
   background-color: rgb(35, 206, 107);
 }

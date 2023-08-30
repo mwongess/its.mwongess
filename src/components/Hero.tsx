@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex items-center justify-between'>
+    <div   className='flex items-center justify-between'>
       <div className='flex flex-col gap-5'>
         <div>
           <h1>Hello 👋, I am</h1>

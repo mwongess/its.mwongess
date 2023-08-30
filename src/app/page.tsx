@@ -13,8 +13,7 @@ export default function Home() {
 
       <Header />
       <main className='flex flex-col justify-between min-h-screen p-16'>
-        {/* <TsParticles/> */}
-        <Hero/>
+        <Hero />
         <About />
         <Skills />
         <Projects />
