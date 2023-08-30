@@ -15,7 +15,7 @@ export const mwongess = {
   },
 
   skills: {
-    devops: ["Git", "Github", "Docker", "Azure", "AWS", "Appwrite", "Firebase"],
+    devops: ["Git", "Github", "Docker"],
     web: [
       "HTML",
       "CSS",
@@ -32,6 +32,8 @@ export const mwongess = {
       "NestJS",
     ],
     programming: "C#",
+    testing: ["Cypress", "Jest"],
+    cloud: ["Azure", "AWS", "Appwrite", "Firebase"],
   },
   projects: [
     {
