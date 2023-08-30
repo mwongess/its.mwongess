@@ -3,14 +3,14 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='sticky z-10 top-0 flex justify-between py-2 px-[4rem]'>
+    <div className='sticky z-10 top-0 flex justify-between py-5 px-[4rem]'>
       <div className="logo font-bold text-2xl">mwongess<span className=''>.me</span></div>
-      <div className='flex gap-3'>
-        <Link href="">HOME</Link>
-        <Link href="">ABOUT</Link>
-        <Link href="">SKILLS</Link>
-        <Link href="">PROJECTS</Link>
-        <Link href="">CONTACT</Link>
+      <div className='flex items-center gap-8'>
+        <Link href="#">HOME</Link>
+        <Link href="#about">ABOUT</Link>
+        <Link href="#skills">SKILLS</Link>
+        <Link href="#projects">PROJECTS</Link>
+        <Link href="#contact">CONTACT</Link>
         <Link href="">CV</Link>
       </div>
     </div>

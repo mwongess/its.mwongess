@@ -36,6 +36,9 @@ body {
   border: 1px solid red
 } */
 
-.logo span{
-  color: rgb(35, 206, 107)
+.logo span, .proffession{
+  color: rgb(35, 206, 107);
+}
+.contact-me{
+  background-color: rgb(35, 206, 107);
 }
