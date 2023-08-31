@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className='flex flex-col justify-between min-h-screen p-28'>
+      <main className='flex flex-col justify-between min-h-screen p-4 sm:p-28'>
         <Hero />
         <About />
         <Skills />

@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' className='flex justify-between items-center pt-20 min-h-screen'>
+    <div id='about' className='sm:flex justify-between items-center pt-20 min-h-screen'>
       {/* <div className='relative h-72 w-72 rounded-full'>
         <Image className='rounded-full' src="/amos.jpeg" fill priority quality={100} alt='amos'/>
       </div> */}
@@ -11,7 +11,7 @@ const About = () => {
       <a href="https://cloud.appwrite.io/card/64d0e85341c0e4147fd6">
         <img width="450" src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
       </a>
-      <div className='w-1/2'>
+      <div className='sm:w-1/2'>
         <h1 className='font-bold text-3xl mb-12'>About Me</h1>
         <div>
           <h1 className='text-xl'>I'm Amos Mwongela and I'm a Full Stack Developer|</h1>
