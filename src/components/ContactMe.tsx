@@ -11,9 +11,9 @@ const ContactMe = () => {
           <h1 className='font-bold text-2xl'>Get in Touch Today!</h1>
           <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error natus dignissimos maiores, ducimus vel voluptatem.</p>
           <div className='socials flex flex-col gap-2'>
-            <Link href=""><span><FaGithub/></span> Github</Link>
-            <Link href=""><span><FaLinkedinIn/> </span>LinkedIn</Link>
-            <p><span><FaPhoneAlt/></span> +254 7.....</p>
+            <Link href={`https://www.github.com/`}><span><FaGithub/></span> Github</Link>
+            <Link href={`https://www.linkedin.com/`}><span><FaLinkedinIn/> </span>LinkedIn</Link>
+            <p><span><FaPhoneAlt/></span> +2547 429 719 32</p>
           </div>
         </div>
         <div className='sm:w-1/2'>
