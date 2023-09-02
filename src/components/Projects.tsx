@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className='font-bold text-4xl'>My Projects</h1>
       <div className='grid grid-cols-1 sm:grid-cols-3 gap-5'>
         {projects.map((project, index)=> (
-            <Project project={project}/>
+            <Project key={index} project={project}/>
         ))}
       </div>
     </div>

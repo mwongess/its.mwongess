@@ -9,7 +9,7 @@ const About = () => {
       </div> */}
       {/* <a href="https://app.daily.dev/mwongess"><img src="https://api.daily.dev/devcards/5cbc86c6540840afa42ae008622c3ca7.png?r=yeo" width="350" height="200" alt="Amos Mwongela's Dev Card"/></a> */}
       <a href="https://cloud.appwrite.io/card/64d0e85341c0e4147fd6">
-        <img width="450" src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
+        <Image width={450} height={150} src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
       </a>
       <div className='sm:w-1/2'>
         <h1 className='font-bold text-3xl mb-12'>About Me</h1>
