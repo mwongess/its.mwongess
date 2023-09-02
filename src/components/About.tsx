@@ -14,7 +14,7 @@ const About = () => {
       <div className='sm:w-1/2'>
         <h1 className='font-bold text-3xl mb-12'>About Me</h1>
         <div>
-          <h1 className='text-xl'>I'm Amos Mwongela and I'm a Full Stack Developer|</h1>
+          <h1 className='text-xl'>I&apos;m Amos Mwongela and I&apos;m a Full Stack Developer|</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis facilis corporis dignissimos distinctio alias quos beatae animi minus. Doloremque vitae nobis esse eos autem necessitatibus quos recusandae sed cum voluptatem reprehenderit porro aliquid officia, laborum ad dolorem possimus itaque asperiores aspernatur totam nesciunt quidem nam ut. Aspernatur pariatur sed quas.</p>
         </div>
       </div>
