@@ -37,13 +37,6 @@ export const mwongess = {
   },
   projects: [
     {
-      name: "multiframe-shop",
-      description: "Same app, different frameworks🎉❤️",
-      technologies: ["NextJs", "Sveltekit", "Tailwind", "Appwrite"],
-      github: "",
-      preview: "",
-    },
-    {
       name: "plan-dash",
       description:
         "A platform designed to efficiently manage projects of all sizes and complexities. 📌📅",
@@ -57,6 +50,20 @@ export const mwongess = {
         "MSSQL",
         "Azure",
       ],
+      github: "",
+      preview: "",
+    },
+    {
+      name: "store-sync",
+      description: "Admin app to manage your online store !",
+      technologies: ["Angular", "Angular-Material", "Tailwind", "Appwrite"],
+      github: "",
+      preview: "",
+    },
+    {
+      name: "multiframe-shop",
+      description: "Same app, different frameworks🎉❤️",
+      technologies: ["NextJs", "Sveltekit", "Tailwind", "Appwrite"],
       github: "",
       preview: "",
     },
@@ -83,7 +90,6 @@ export const mwongess = {
       github: "",
       preview: "",
     },
-    { name: "ngozi-natural", description: "" },
     {
       name: "send-it",
       description:
@@ -92,13 +98,8 @@ export const mwongess = {
       github: "",
       preview: "",
     },
+    { name: "ngozi-natural", description: "" },
+
     { name: "water-tracker", description: "" },
-    {
-      name: "store-sync",
-      description: "Admin app to manage your online store !",
-      technologies: ["Angular", "Angular-Material", "Tailwind", "Appwrite"],
-      github: "",
-      preview: "",
-    },
   ],
 };
