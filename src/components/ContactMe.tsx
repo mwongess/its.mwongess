@@ -9,7 +9,7 @@ const ContactMe = () => {
       <div className='sm:flex  justify-between gap-8'>
         <div>
           <h1 className='font-bold text-2xl'>Get in Touch Today!</h1>
-          <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error natus dignissimos maiores, ducimus vel voluptatem.</p>
+          <p className='my-4'>Have a question, project idea, or just want to say hello? Feel free to reach me out. I typically respond within 2 hours.</p>
           <div className='socials flex flex-col gap-2'>
             <Link href={`https://www.github.com/`}><span><FaGithub/></span> Github</Link>
             <Link href={`https://www.linkedin.com/`}><span><FaLinkedinIn/> </span>LinkedIn</Link>
