@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaGithub, FaLinkedinIn, FaPhoneAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
@@ -11,9 +11,10 @@ const ContactMe = () => {
           <h1 className='font-bold text-2xl'>Get in Touch Today!</h1>
           <p className='my-4'>Have a question, project idea, or just want to say hello? Feel free to reach me out. I typically respond within 2 hours.</p>
           <div className='socials flex flex-col gap-2'>
-            <Link href={`https://www.github.com/`}><span><FaGithub/></span> Github</Link>
-            <Link href={`https://www.linkedin.com/`}><span><FaLinkedinIn/> </span>LinkedIn</Link>
-            <p><span><FaPhoneAlt/></span> +2547 429 719 32</p>
+            <Link href={`https://www.github.com/mwongess`} target='_blank'><span><FaGithub /></span> Github</Link>
+            <Link href={`https://www.linkedin.com/in/mwongess`} target='_blank'><span><FaLinkedinIn /> </span>LinkedIn</Link>
+            <Link href="https://wa.me/+254742971932" target='_blank'><span><FaWhatsapp /></span>Whatsapp</Link>
+            <p><span><FaPhoneAlt /></span> +254742 971 932</p>
           </div>
         </div>
         <div className='sm:w-1/2'>
