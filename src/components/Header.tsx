@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaHamburger } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className='sticky z-10 top-0 flex justify-between py-5 px-4 sm:px-[7rem]'>
-      <div className="logo font-bold text-2xl sm:text-4xl">mwonge<span className=''>ss</span></div>
+    <div className='sticky z-10 top-0 flex justify-between  items-center py-5 px-4 sm:px-[7rem]'>
+      <div className="logo font-bold text-3xl sm:text-4xl">mwonge<span className=''>ss</span></div>
       <div className='hidden sm:flex items-center gap-8'>
         <Link href="#home">HOME</Link>
         <Link href="/json">JSON</Link>
@@ -14,6 +15,7 @@ const Header = () => {
         <Link href="#contact">CONTACT</Link>
         <Link href="">CV</Link>
       </div>
+      <div className='block sm:hidden text-2xl'><p><FaHamburger/></p></div>
     </div>
   )
 }
