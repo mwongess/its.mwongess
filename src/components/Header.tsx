@@ -1,6 +1,9 @@
+"use client"
+
 import Link from 'next/link'
 import React from 'react'
 import { FaHamburger } from 'react-icons/fa'
+import Hamburger from './Hamburger'
 
 const Header = () => {
   return (
@@ -15,7 +18,9 @@ const Header = () => {
         <Link href="#contact">CONTACT</Link>
         <Link href="">CV</Link>
       </div>
-      <div className='block sm:hidden text-2xl'><p><FaHamburger/></p></div>
+      <div className='block sm:hidden text-2xl'>
+        <p><FaHamburger/></p>
+      </div>
     </div>
   )
 }
