@@ -91,7 +91,7 @@ html {
 
 .technologies,
 .socials * {
-  @apply flex gap-3 items-center
+  @apply flex gap-2 items-center
 }
 
 .socials * span {
@@ -99,7 +99,7 @@ html {
 }
 
 .project {
-  @apply bg-[#212121]
+  @apply bg-[#212121] flex flex-col justify-between gap-2
 }
 
 .project:hover {

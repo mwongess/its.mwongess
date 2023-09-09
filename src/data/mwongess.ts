@@ -45,10 +45,7 @@ export const mwongess = {
         "Typescript",
         "Tailwind",
         "Node",
-        "ReactQuery",
-        "Node",
         "MSSQL",
-        "Azure",
       ],
       github: "",
       preview: "",
@@ -56,7 +53,7 @@ export const mwongess = {
     {
       name: "store-sync",
       description: "Admin app to manage your online store !",
-      technologies: ["Angular", "Angular-Material", "Tailwind", "Appwrite"],
+      technologies: ["Angular",  "Angular-material","Tailwind", "Appwrite"],
       github: "",
       preview: "",
     },
@@ -98,8 +95,8 @@ export const mwongess = {
       github: "",
       preview: "",
     },
-    { name: "ngozi-natural", description: "" },
+    // { name: "ngozi-natural", description: "" },
 
-    { name: "water-tracker", description: "" },
+    // { name: "water-tracker", description: "" },
   ],
 };
