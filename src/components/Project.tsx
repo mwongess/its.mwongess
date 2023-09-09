@@ -13,8 +13,8 @@ const Project = ({ project}: { project: any}) => {
       </div>
       <div className="technologies flex-wrap">
         {
-          project.technologies.map((technology: string) => (
-            <p>{technology}</p>
+          project.technologies.map((technology: string, index:any) => (
+            <p key={index}>{technology}</p>
           ))
         }
       </div>
