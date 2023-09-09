@@ -18,9 +18,9 @@ const Header = () => {
         <Link href="#contact">CONTACT</Link>
         <Link href="">CV</Link>
       </div>
-      <div className='block sm:hidden text-2xl'>
-        <p><FaHamburger/></p>
-      </div>
+      <p className='block sm:hidden text-3xl'>
+        <FaHamburger/>
+      </p>
     </div>
   )
 }
