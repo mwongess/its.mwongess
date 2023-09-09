@@ -20,10 +20,10 @@ const Hero = () => {
         <div>
           <p className='proffession font-bold text-xl'>Fullstack Software Developer</p>
           <p className='text-lg'>Talented full-stack software engineer with a passion for creating elegant, robust, and scalable applications.</p>
-          <button onClick={goToContact} className='contact-me rounded-xl py-4 px-8 w-1/2 sm:mt-8'>Contact</button>
+          <button onClick={goToContact} className='contact-me rounded-xl py-4 px-8 w-1/2 mt-8'>Contact</button>
         </div>
       </div>
-      <Image className="hidden sm:block animated fadeInRight" src="/illustration.svg" priority height={200} width={500} quality={100} alt='illustration' />
+      <Image className="hidden sm:block animated fadeInRight " src="/illustration.svg" priority height={200} width={500} quality={100} alt='illustration' />
     </div>
   )
 }

@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 const ContactMe = () => {
   return (
     <div id='contact' className=''>
-      <h1 className='font-bold text-3xl text-center pt-20 mb-12'>Contact Me</h1>
-      <div className='sm:flex  justify-between gap-8'>
+      <h1 className='font-bold text-3xl text-center pt-20 mb-8 sm:mb-12'>Contact Me</h1>
+      <div className='flex flex-col sm:flex-row justify-between gap-8'>
         <div>
           <h1 className='font-bold text-2xl'>Get in Touch Today!</h1>
           <p className='my-4'>Have a question, project idea, or just want to say hello? Feel free to reach me out. I typically respond within 2 hours.</p>
