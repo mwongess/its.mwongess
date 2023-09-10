@@ -47,7 +47,7 @@ export const mwongess = {
         "Node",
         "MSSQL",
       ],
-      github: "",
+      github: "https://github.com/mwongess/plan-dash",
       preview: "",
     },
     {
@@ -61,8 +61,8 @@ export const mwongess = {
       name: "multiframe-shop",
       description: "Same app, different frameworks🎉❤️",
       technologies: ["NextJs", "Sveltekit", "Tailwind", "Appwrite"],
-      github: "",
-      preview: "",
+      github: "https://github.com/mwongess/multiframe-shop",
+      preview: "https://next-designerstore.vercel.app/",
     },
     {
       name: "connectify",
@@ -76,7 +76,7 @@ export const mwongess = {
         "Socket.io",
         "MSSQL",
       ],
-      github: "",
+      github: "https://github.com/mwongess/connectify",
       preview: "",
     },
     {
@@ -84,7 +84,7 @@ export const mwongess = {
       description:
         "An exciting npm package ,empowering effortless connectivity, seamless querying, and the smooth execution of procedures within an SQL Server database. Enjoy the power and ease! 🔥🎉",
       technologies: ["Node", "Typescript", "MSSQL"],
-      github: "",
+      github: "https://github.com/mwongess/mssql-mate",
       preview: "",
     },
     {
@@ -92,7 +92,7 @@ export const mwongess = {
       description:
         "Platform designed to simplify the process of shipping items by providing you with accurate quotes tailored to the weight of your products.Also intergrated with map for easy tracking.",
       technologies: ["Angular", "CSS", "Node", "Express", "MSSQL"],
-      github: "",
+      github: "https://github.com/mwongess/send-it",
       preview: "",
     },
     // { name: "ngozi-natural", description: "" },

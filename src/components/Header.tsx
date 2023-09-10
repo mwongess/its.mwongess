@@ -1,13 +1,31 @@
 "use client"
 
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaHamburger } from 'react-icons/fa'
 import Hamburger from './Hamburger'
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='sticky z-10 top-0 flex justify-between  items-center py-5 px-4 sm:px-[7rem]'>
+    <div className={`sticky z-10 top-0 flex justify-between  items-center py-5 px-4 sm:px-[7rem]  ${scrolled && "scrolled" } `}>
       <div className="logo font-bold text-3xl sm:text-4xl">mwonge<span className=''>ss</span></div>
       <div className='hidden sm:flex items-center gap-8'>
         <Link href="#home">HOME</Link>
