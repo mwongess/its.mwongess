@@ -109,7 +109,7 @@ html {
   animation: fade-in-left 0.5s ease-in-out;
 }
 .scrolled{
-  @apply bg-slate-50 text-rose-400
+  @apply bg-slate-50  text-[#E31F71]
 }
 @keyframes slide-in {
   0% {
