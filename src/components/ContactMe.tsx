@@ -18,7 +18,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div className='sm:w-1/2'>
-          <form action="https://formsubmit.io/send/amosmwongelah@gmail.com" method="post">
+          <form action="https://formsubmit.co/amosmwongelah@gmail.com" method="post">
             <div>
               <input className='w-full rounded-lg p-3 bg-transparent border  border-black' type="email" placeholder='Your Email' name="email" />
             </div>
