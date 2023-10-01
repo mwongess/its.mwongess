@@ -1,23 +1,35 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FiLock, FiUnlock } from 'react-icons/fi'
 
 const Project = ({ project }: { project: any }) => {
   return (
-    <div className='project border text-white p-3 rounded-lg'>
-      <div>
+    <div className='project border-2 border-white text-white p-3 rounded-lg'>
+      <div className=''>
         <div className="header flex justify-between mb-4">
-          <Image src="/folder.svg" height={20} width={40} alt='folder' />
+          <div className='flex gap-3'>
+            <Image src="/folder.svg" height={20} width={40} alt='folder' />
+          </div>
           <div className='flex gap-3 items-center'>
+
             <Link href={project.github} target='_blank'>
               <Image src="/github.svg" height={17} width={30} alt='github' />
             </Link>
-            <Link href={project.preview}  target='_blank'>
+            <Link href={project.preview} target='_blank'>
               <Image src="/preview.svg" height={17} width={30} alt='preview' />
             </Link>
+
           </div>
         </div>
-        <h1 className='font-bold text-xl'>{project.name}</h1>
-        <p className='my-5'>{project.description.split(' ').slice(0, 10).join(' ') + ' ...'}</p>
+        <h1 className='flex gap-3 items-center'>
+          <p className=' font-bold text-xl'>{project.name}</p>
+          {
+            project.private ? <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full  bg-blue-800 h-fit'>Private <FiLock /></p> : <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full border border-blue-800 h-fit'>Public <FiUnlock /></p>
+          }
+
+
+        </h1>
+        <p className='my-5'>{project.description}</p>
       </div>
       <div className="technologies flex-wrap">
         {

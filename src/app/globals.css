@@ -99,11 +99,11 @@ html {
 }
 
 .project {
-  @apply bg-[#212121] flex flex-col justify-between gap-2
+  @apply bg-[#212121]  flex flex-col justify-between gap-2
 }
 
 .project:hover {
-  @apply bg-[#E31F71]
+  @apply bg-[#E31F71] border-none
 }
 .animated.fade-in-left {
   animation: fade-in-left 0.5s ease-in-out;
