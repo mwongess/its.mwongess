@@ -38,6 +38,7 @@ export const mwongess = {
   projects: [
     {
       name: "Mama U's & Shitto",
+      private: true,
       description:
         "Ecommerce website that specializes in offering a wide range of products, including premium-quality chillies and freshly roasted coffee beans",
       technologies: ["React", "Tailwind", "Strapi"],
@@ -46,6 +47,7 @@ export const mwongess = {
     },
     {
       name: "Freelance Fusion",
+      private: true,
       description:
         "A platform where talents meet opportunities.This ite connects you to a world of talent and possibilities",
       technologies: ["Next", "Shadcn", "Tailwind", "Appwrite"],
@@ -54,6 +56,7 @@ export const mwongess = {
     },
     {
       name: "Hydrat8",
+      private: true,
       description:
         "Efficient platform that streamlines water bill management.Originally(BenmaX)",
       technologies: ["Next", "Tailwind", "Appwrite", "Shadcn"],
@@ -62,6 +65,7 @@ export const mwongess = {
     },
     {
       name: "plan-dash",
+      private: false,
       description:
         "A platform designed to efficiently manage projects of all sizes and complexities. 📌📅",
       technologies: ["React", "Typescript", "Tailwind", "Node", "MSSQL"],
@@ -70,6 +74,7 @@ export const mwongess = {
     },
     {
       name: "TripplespadeTours Rwanda",
+      private: true,
       description:
         "Curates and showcases the most captivating destinations, hidden gems, and thrilling experiences this remarkable country has to offer",
       technologies: ["Html", "css", "php", "couch"],
@@ -78,6 +83,7 @@ export const mwongess = {
     },
     {
       name: "multiframe-shop",
+      private: false,
       description: "Same app, different frameworks🎉❤️",
       technologies: ["NextJs", "Sveltekit", "Tailwind", "Appwrite"],
       github: "https://github.com/mwongess/multiframe-shop",
@@ -85,6 +91,7 @@ export const mwongess = {
     },
     {
       name: "connectify",
+      private: false,
       description:
         "A comprehensive application designed to provide users with a social networking experience🌐👋",
       technologies: [
@@ -100,6 +107,7 @@ export const mwongess = {
     },
     {
       name: "mssql-mate",
+      private: false,
       description:
         "An exciting npm package ,empowering effortless connectivity, seamless querying, and the smooth execution of procedures within an SQL Server database. Enjoy the power and ease! 🔥🎉",
       technologies: ["Node", "Typescript", "MSSQL"],
@@ -108,6 +116,7 @@ export const mwongess = {
     },
     {
       name: "send-it",
+      private: false,
       description:
         "Platform designed to simplify the process of shipping items by providing you with accurate quotes tailored to the weight of your products.Also intergrated with map for easy tracking.",
       technologies: ["Angular", "CSS", "Node", "Express", "MSSQL"],
