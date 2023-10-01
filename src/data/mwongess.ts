@@ -54,7 +54,8 @@ export const mwongess = {
     },
     {
       name: "Hydrat8",
-      description: "Efficient platform that streamlines water bill management.Originally(BenmaX)",
+      description:
+        "Efficient platform that streamlines water bill management.Originally(BenmaX)",
       technologies: ["Next", "Tailwind", "Appwrite", "Shadcn"],
       github: "https://github.com/mwongess/",
       preview: "",
@@ -68,9 +69,10 @@ export const mwongess = {
       preview: "",
     },
     {
-      name: "store-sync",
-      description: "Admin app to manage your online store !",
-      technologies: ["Angular", "Angular-material", "Tailwind", "Appwrite"],
+      name: "TripplespadeTours Rwanda",
+      description:
+        "Curates and showcases the most captivating destinations, hidden gems, and thrilling experiences this remarkable country has to offer",
+      technologies: ["Html", "css", "php", "couch"],
       github: "",
       preview: "",
     },

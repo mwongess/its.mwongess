@@ -17,7 +17,7 @@ const Project = ({ project }: { project: any }) => {
           </div>
         </div>
         <h1 className='font-bold text-xl'>{project.name}</h1>
-        <p className='my-5'>{project.description.split(' ').slice(0, 10).join(' ') + ' ...'}</p>
+        <p className='my-5'>{project.description}</p>
       </div>
       <div className="technologies flex-wrap">
         {
