@@ -18,14 +18,15 @@ const ContactMe = () => {
           </div>
         </div>
         <div className='sm:w-1/2'>
-          <form action="">
+          <form action="https://formsubmit.co/amosmwongelah@gmail.com" method="post">
             <div>
-              <input className='w-full rounded-lg p-3 bg-transparent border-2  border-white' type="email" placeholder='Your Email' />
+
+              <input className='w-full rounded-lg p-3 bg-transparent border  border-black' type="email" placeholder='Your Email' name="email" />
             </div>
             <div className='my-4'>
-              <textarea className='w-full rounded-lg p-3 bg-transparent border-2  border-white' name="" id="" cols={30} rows={5} placeholder='Message ...'></textarea>
+              <textarea className='w-full rounded-lg p-3 bg-transparent border  border-black' name="message" id="" cols={30} rows={5} placeholder='Message ...'></textarea>
             </div>
-            <button className='send-btn p-3 rounded-full w-1/2'>SEND</button>
+            <button type="submit" className='send-btn p-3 rounded-full w-1/2'>SEND</button>
           </form>
         </div>
       </div>
