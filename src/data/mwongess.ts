@@ -49,7 +49,7 @@ export const mwongess = {
       name: "Freelance Fusion",
       private: true,
       description:
-        "A platform where talents meet opportunities.This ite connects you to a world of talent and possibilities",
+        "A platform where talents meet opportunities.This site connects you to a world of talent and possibilities",
       technologies: ["Next", "Shadcn", "Tailwind", "Appwrite"],
       github: "https://github.com/mwongess/",
       preview: "",
