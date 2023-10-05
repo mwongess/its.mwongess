@@ -97,6 +97,9 @@ html {
 .socials * span {
   @apply text-2xl text-[#23ce6b]
 }
+.socials :hover {
+  @apply  text-[#23ce6b]
+}
 
 .project {
   @apply bg-[#212121]  flex flex-col justify-between gap-2
