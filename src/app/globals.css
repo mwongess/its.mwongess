@@ -98,7 +98,7 @@ html {
   @apply text-2xl text-[#23ce6b]
 }
 .socials :hover {
-  @apply  text-[#23ce6b]
+  @apply  text-[#23ce6b] font-bold
 }
 
 .project {

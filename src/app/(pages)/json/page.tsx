@@ -7,7 +7,7 @@ const RawData = () => {
     return (
         <div className=''>
             <Header />
-            <p className='px-20 py-4 min-h-screen'>
+            <p className='px-28 py-4 min-h-screen'>
                 {JSON.stringify(mwongess, null, 4)}
             </p>
             <Footer />
