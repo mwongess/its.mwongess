@@ -44,7 +44,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen'>
+    <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen gap-6'>
       {/* <div className='relative h-72 w-72 rounded-full'>
         <Image className='rounded-full' src="/amos.jpeg" fill priority quality={100} alt='amos'/>
       </div> */}
