@@ -20,8 +20,7 @@ const ContactMe = () => {
         <div className='sm:w-1/2'>
           <form className="w-full" action="https://formsubmit.co/amosmwongelah@gmail.com" method="post">
             <div>
-
-              <input className='w-full rounded-lg p-4 bg-transparent border' type="email" placeholder='Your Email' name="email" />
+              <input className='w-full rounded-lg p-4 bg-transparent border border-black' type="email" placeholder='Your Email' name="email" />
             </div>
             <div className='my-4'>
               <textarea className='w-full rounded-lg p-4 bg-transparent border text-black' name="message" id="" cols={30} rows={5} placeholder='Message ...'></textarea>
