@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`sticky top-0 flex justify-between  items-center py-5 px-4 sm:px-[7rem]  ${scrolled && "scrolled" } `}>
+    <div className={`sticky top-0 z-10 flex justify-between  items-center py-5 px-4 sm:px-[7rem]  ${scrolled && "scrolled" } `}>
       <div className="logo font-bold text-3xl sm:text-4xl">mwonge<span className=''>ss</span></div>
       <div className='hidden sm:flex items-center gap-8 font-bold text-sm'>
         <Link href="/#home">HOME</Link>
