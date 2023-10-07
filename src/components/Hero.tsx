@@ -8,19 +8,19 @@ import { useRouter } from 'next/navigation'
 const Hero = () => {
   const router = useRouter()
   const goToContact = () => {
-    router.push("#contact")
+    router.push("#projects")
   }
   return (
     <div className='flex items-center justify-between gap-4'>
       <div className='flex flex-col gap-5 w-1/2'>
         <div>
-          <h1>Hello 👋, I am</h1>
+          <h1 className='text-lg'>Hello 👋, I am</h1>
           <h1 className='font-bold text-3xl sm:text-5xl sm:mt-3'>Amos Mwongela</h1>
         </div>
         <div>
-          <p className='proffession font-bold text-xl'>Fullstack Software Developer</p>
+          <p className='profession font-bold text-xl'>Software Engineer by profession.</p>
           <p className='text-lg'>Talented full-stack software engineer with a passion for creating elegant, robust, and scalable applications.</p>
-          <button onClick={goToContact} className='contact-me rounded-xl py-4 px-8 w-1/2 mt-8'>Contact</button>
+          <button onClick={goToContact} className='hover:scale-105  font-bold contact-me rounded-xl py-4 px-8 w-1/2 mt-8'>See My Projects</button>
         </div>
       </div>
       <div className='relative  w-1/2'>
