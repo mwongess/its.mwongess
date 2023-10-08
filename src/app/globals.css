@@ -82,7 +82,9 @@ html {
 .profession {
   @apply text-[#23ce6b]
 }
-
+.header-links a:hover{
+  @apply text-[#23ce6b] scale-105 
+}
 .contact-me,
 .send-btn {
   @apply bg-[#23ce6b] text-white

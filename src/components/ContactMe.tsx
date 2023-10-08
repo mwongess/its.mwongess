@@ -1,8 +1,18 @@
+"use client"
+
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { FaGithub, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const ContactMe = () => {
+  const [fomData, setFormData] = useState({
+    email: "",
+    message: ""
+  })
+  const handleFormSubmit = (e: any)=>{
+    e.preventDefault()
+  }
+
   return (
     <div id='contact' className=''>
       <h1 className='font-bold text-3xl text-center pt-20 mb-8 sm:mb-12'>Contact Me</h1>
