@@ -15,7 +15,7 @@ const ContactMe = () => {
 
   return (
     <div id='contact' className=''>
-      <h1 className='font-bold text-3xl text-center pt-20 mb-8 sm:mb-12'>Contact Me</h1>
+      <h1 className='font-bold text-3xl sm:text-center pt-20 mb-8 sm:mb-12'>Contact Me</h1>
       <div className='flex flex-col sm:flex-row justify-between gap-8'>
         <div>
           <h1 className='font-bold text-2xl'>Get in Touch Today!</h1>
