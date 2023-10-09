@@ -45,10 +45,6 @@ const About = () => {
 
   return (
     <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen gap-6'>
-      {/* <div className='relative h-72 w-72 rounded-full'>
-        <Image className='rounded-full' src="/amos.jpeg" fill priority quality={100} alt='amos'/>
-      </div> */}
-      {/* <a href="https://app.daily.dev/mwongess"><img src="https://api.daily.dev/devcards/5cbc86c6540840afa42ae008622c3ca7.png?r=yeo" width="350" height="200" alt="Amos Mwongela's Dev Card"/></a> */}
       <a href="https://cloud.appwrite.io/card/64d0e85341c0e4147fd6">
         <Image className="pb-8 sm:pb-0" width={450} height={150} src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
       </a>

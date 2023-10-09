@@ -1,8 +1,6 @@
 "use client"
 
 import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
 import { useRouter } from 'next/navigation'
 
 const Hero = () => {
@@ -33,9 +31,6 @@ const Hero = () => {
           <p className='text-[#23ce6b]'>@mwongess</p>
           <p>The Versatile Developer.</p>
         </div>
-        {/* <div className='flex  justify-center flex-col absolute rounded-xl gap-1 top-1/4 left-1/2  shadow-md bg-white p-4 hover:scale-105  cursor-pointer'>
-          <p>Bringing your ideas to life through code.</p>
-        </div> */}
       </div>
     </div>
   )
