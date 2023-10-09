@@ -18,7 +18,7 @@ const Hero = () => {
         <div>
           <p className='profession font-bold text-xl'>Software Engineer by profession.</p>
           <p className='text-lg'>Talented full-stack software engineer with a passion for creating elegant, robust, and scalable applications.</p>
-          <button onClick={goToContact} className='hover:scale-105  font-bold contact-me rounded-xl py-4 px-8 w-fit sm:w-1/2 my-3'>See My Projects</button>
+          <button onClick={goToContact} className='hover:scale-105  font-bold contact-me rounded-lg sm:rounded-xl py-2 sm:py-4 px-8 w-fit sm:w-1/2 my-3'>See My Projects</button>
         </div>
       </div>
       <div className='relative w-full sm:w-1/2'>
