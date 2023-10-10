@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { FaHamburger } from 'react-icons/fa'
+import { Mobile } from './Mobile'
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -35,9 +36,7 @@ const Header = () => {
         <Link href="/#contact">CONTACT</Link>
         <Link href="">CV</Link>
       </div>
-      <p className='block sm:hidden text-3xl'>
-        <FaHamburger/>
-      </p>
+      <Mobile/>
     </div>
   )
 }
