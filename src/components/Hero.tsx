@@ -12,11 +12,11 @@ const Hero = () => {
     <div className='flex flex-col sm:flex-row items-center justify-between gap-4  mb-[3rem]  sm:mb-0'>
       <div className='flex flex-col gap-5 w-full sm:w-1/2'>
         <div>
-          <h1 className='text-lg'>Hello 👋, I am</h1>
+          <h1 className='text-lg'>Hello 👋, my name is</h1>
           <h1 className='font-bold text-3xl sm:text-5xl sm:mt-3'>Amos Mwongela</h1>
         </div>
         <div>
-          <p className='profession font-bold text-xl'>A Talented Software Engineer,</p>
+          <p className='font-bold text-xl'>And i am <span className='profession'>Talented Software Engineer,</span> </p>
           <p className='text-lg'>With a passion for creating elegant, robust, and scalable applications.</p>
           <button onClick={goToProjects} className='hover:scale-105  font-bold contact-me rounded-lg sm:rounded-xl py-2 sm:py-4 px-8 w-fit sm:w-1/2 my-3'>See My Projects</button>
         </div>
