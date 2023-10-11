@@ -9,7 +9,7 @@ const ContactMe = () => {
     email: "",
     message: ""
   })
-  const handleFormSubmit = (e: any)=>{
+  const handleFormSubmit = (e: any) => {
     e.preventDefault()
   }
 
@@ -30,10 +30,10 @@ const ContactMe = () => {
         <div className='sm:w-1/2'>
           <form className="w-full" action="https://formsubmit.co/amosmwongelah@gmail.com" method="post">
             <div>
-              <input className='w-full rounded-lg p-4 bg-transparent border' type="email" placeholder='Your Email' name="email" />
+              <input className='w-full rounded-lg p-4 bg-transparent border' type="email" placeholder='youremail@email.com' name="email" />
             </div>
             <div className='my-4'>
-              <textarea className='w-full rounded-lg p-4 bg-transparent border text-black' name="message" id="" cols={30} rows={5} placeholder='Message ...'></textarea>
+              <textarea className='w-full rounded-lg p-4 bg-transparent border text-black' name="message" id="" cols={30} rows={5} placeholder='Message here...'></textarea>
             </div>
             <button type="submit" className='send-btn p-3 rounded-full w-1/2'>SEND</button>
           </form>
