@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className='font-bold text-3xl sm:text-5xl sm:mt-3'>Amos Mwongela</h1>
         </div>
         <div>
-          <p className='profession font-bold text-xl'>A, Talented Software Engineer.</p>
+          <p className='profession font-bold text-xl'>A Talented Software Engineer,</p>
           <p className='text-lg'>With a passion for creating elegant, robust, and scalable applications.</p>
           <button onClick={goToProjects} className='hover:scale-105  font-bold contact-me rounded-lg sm:rounded-xl py-2 sm:py-4 px-8 w-fit sm:w-1/2 my-3'>See My Projects</button>
         </div>
