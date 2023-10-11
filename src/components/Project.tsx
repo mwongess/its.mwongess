@@ -8,15 +8,14 @@ const Project = ({ project }: { project: any }) => {
       <div className=''>
         <div className="header flex justify-between mb-4">
           <div className='flex gap-3'>
-            <Image src="/folder.svg" height={20} width={40} alt='folder' />
+            <Image src="/folder.svg" priority height={20} width={40} alt='folder' />
           </div>
           <div className='flex gap-3 items-center'>
-
             <Link href={project.github} target='_blank'>
-              <Image src="/github.svg" height={17} width={30} alt='github' />
+              <Image src="/github.svg" priority height={17} width={30} alt='github' />
             </Link>
             <Link href={project.preview} target='_blank'>
-              <Image src="/preview.svg" height={17} width={30} alt='preview' />
+              <Image src="/preview.svg" priority height={17} width={30} alt='preview' />
             </Link>
 
           </div>
