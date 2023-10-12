@@ -1,3 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio - Amos Mwongela 
+Hello 👋, my name is
+Amos Mwongela
+And i am Talented Software Engineer,
 
+With a passion for creating elegant, robust, and scalable applications.
+## Table of Contents
 
+- [Features](#features)
+- [Preview](#demo)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
