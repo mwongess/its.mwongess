@@ -1,11 +1,7 @@
 # Portfolio - Amos Mwongela 
-Hello 👋, my name is
-Amos Mwongela
-And i am Talented Software Engineer,
+Hello 👋, my name is Amos Mwongela and i am Talented Software Engineer, with a passion for creating elegant, robust, and scalable applications.
 
-With a passion for creating elegant, robust, and scalable applications.
 ## Table of Contents
-
 - [Preview](#preview)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -13,7 +9,7 @@ With a passion for creating elegant, robust, and scalable applications.
 - [Contact](#contact)
 
 ## Preview
-[View](https://mwongess.vercel.app/)
+[mwongess.me](https://mwongess.vercel.app/)
 
 ## Technologies Used
 - Next.js
@@ -22,4 +18,9 @@ With a passion for creating elegant, robust, and scalable applications.
 
 ## Contributing
 ## License
- [License](/license.mit)
+ [MIT](/LICENSE)
+
+## Contact
+- Whatsapp  
+- [in](https://linkedin.com/in/mwongess)
+- [X](https://twitter.com/mwongess)
