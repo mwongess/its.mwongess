@@ -21,6 +21,6 @@ Hello 👋, my name is Amos Mwongela and i am Talented Software Engineer, with a
  [MIT](/LICENSE)
 
 ## Contact
-- Whatsapp  
 - [in](https://linkedin.com/in/mwongess)
 - [X](https://twitter.com/mwongess)
+- [Whatsapp](https://wa.me/+254742971932)
