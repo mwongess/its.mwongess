@@ -36,15 +36,15 @@ export const mwongess = {
     cloud: ["Azure", "AWS", "Appwrite", "Firebase"],
   },
   projects: [
-    {
-      name: "Mama U's & Shitto",
-      private: true,
-      description:
-        "Ecommerce website that specializes in offering a wide range of products, including premium-quality chillies and freshly roasted coffee beans",
-      technologies: ["React", "Tailwind", "Strapi"],
-      github: "https://github.com/mwongess/",
-      preview: "",
-    },
+    // {
+    //   name: "Mama U's & Shitto",
+    //   private: true,
+    //   description:
+    //     "Ecommerce website that specializes in offering a wide range of products, including premium-quality chillies and freshly roasted coffee beans",
+    //   technologies: ["React", "Tailwind", "Strapi"],
+    //   github: "https://github.com/mwongess/",
+    //   preview: "",
+    // },
     {
       name: "Freelance Fusion",
       private: true,
@@ -72,15 +72,15 @@ export const mwongess = {
       github: "https://github.com/mwongess/plan-dash",
       preview: "",
     },
-    {
-      name: "TripplespadeTours Rwanda",
-      private: true,
-      description:
-        "Curates and showcases the most captivating destinations, hidden gems, and thrilling experiences this remarkable country has to offer",
-      technologies: ["Html", "css", "php", "couch"],
-      github: "",
-      preview: "",
-    },
+    // {
+    //   name: "TripplespadeTours Rwanda",
+    //   private: true,
+    //   description:
+    //     "Curates and showcases the most captivating destinations, hidden gems, and thrilling experiences this remarkable country has to offer",
+    //   technologies: ["Html", "css", "php", "couch"],
+    //   github: "",
+    //   preview: "",
+    // },
     {
       name: "multiframe-shop",
       private: false,
