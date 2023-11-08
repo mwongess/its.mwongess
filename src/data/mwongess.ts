@@ -123,6 +123,15 @@ export const mwongess = {
       github: "https://github.com/mwongess/send-it",
       preview: "",
     },
+    {
+      name: "member cart",
+      private: false,
+      description:
+        "Pla🔒 Members-Only Access: This app is designed exclusively for members, ensuring that your shopping experience is private and intimate..",
+      technologies: ["Wordpress", ],
+      github: "https://github.com/mwongess/member-cart",
+      preview: "",
+    },
 
     // { name: "ngozi-natural", description: "" },
 
