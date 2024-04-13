@@ -45,6 +45,17 @@ export const mwongess = {
     //   github: "https://github.com/mwongess/",
     //   preview: "",
     // },
+
+
+    {
+      name: "Imuhira Eco Tourism",
+      private: true,
+      description:
+        "Community based tourism company offering activities in nature along the Congo nile.",
+      technologies: ["Html", "Css", "php", "COUCH CMS"],
+      github: "https://github.com/mwongess/",
+      preview: "https://www.imuhirecotourism.rw/",
+    },
     {
       name: "Freelance Fusion",
       private: true,
@@ -128,7 +139,7 @@ export const mwongess = {
       private: false,
       description:
         "🔒 Members-Only Access: This app is designed exclusively for members, ensuring that your shopping experience is private and intimate..",
-      technologies: ["Wordpress", ],
+      technologies: ["Wordpress",],
       github: "https://github.com/mwongess/member-cart",
       preview: "",
     },
