@@ -23,7 +23,7 @@ const Project = ({ project }: { project: any }) => {
         <h1 className='flex gap-3 items-center'>
           <p className=' font-bold text-xl'>{project.name}</p>
           {
-            project.private ? <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full  bg-blue-800 h-fit'>Private <FiLock /></p> : <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full border border-blue-800  text-blue-800 h-fit'>Public <FiUnlock /></p>
+            project.private ? <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full  bg-blue-800 text-white h-fit'>Private <FiLock /></p> : <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full border border-blue-800  text-blue-800 h-fit'>Public <FiUnlock /></p>
           }
 
 

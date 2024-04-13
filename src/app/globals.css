@@ -69,9 +69,7 @@
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
-  }
+ 
 }
 
 html {
@@ -104,11 +102,11 @@ html {
 }
 
 .project {
-  @apply bg-[#212121] flex flex-col justify-between gap-2
+  @apply flex flex-col justify-between gap-2 text-black shadow-md
 }
 
 .project:hover {
-  @apply bg-[#E31F71] border-none
+  @apply bg-[#E31F71] border-none text-white
 }
 
 .animated.fade-in-left {
