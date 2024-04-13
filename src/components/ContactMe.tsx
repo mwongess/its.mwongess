@@ -35,7 +35,7 @@ const ContactMe = () => {
             <div className='my-4'>
               <textarea className='w-full rounded-lg p-4 bg-transparent border text-black' name="message" id="" cols={30} rows={5} placeholder='Message Here'></textarea>
             </div>
-            <button type="submit" className='send-btn p-3 rounded-full w-1/2'>SEND</button>
+            <button type="submit" className='send-btn p-4 rounded-full w-fit'>SEND</button>
           </form>
         </div>
       </div>
