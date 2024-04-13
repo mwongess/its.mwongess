@@ -4,7 +4,7 @@ import { FiLock, FiUnlock } from 'react-icons/fi'
 
 const Project = ({ project }: { project: any }) => {
   return (
-    <div className='project border-2 border-white text-white p-3 rounded-lg'>
+    <div className='project p-3 rounded-lg'>
       <div className=''>
         <div className="header flex justify-between mb-4">
           <div className='flex gap-3'>

@@ -106,12 +106,9 @@ html {
 }
 
 .project:hover {
-  @apply bg-[#E31F71] border-none text-white
+  @apply transition-transform duration-1000 scale-105 bg-[#E31F71] border-none text-white
 }
 
-.animated.fade-in-left {
-  animation: fade-in-left 0.5s ease-in-out;
-}
 
 .scrolled {
   @apply bg-slate-50 text-[#E31F71]
