@@ -68,9 +68,9 @@
   * {
     @apply border-border;
   }
-
  
 }
+
 
 html {
   scroll-behavior: smooth !important;
@@ -111,7 +111,9 @@ body{
   @apply transition-transform duration-1000 scale-105  border-none text-white
 }
 
-
+input,textarea{
+  @apply border border-[#81818b]
+}
 .scrolled {
   /* @apply bg-slate-50 text-[#E31F71] */
   @apply backdrop-blur-md
@@ -121,14 +123,3 @@ button:hover {
   @apply scale-105
 }
 
-@keyframes slide-in {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}

@@ -11,9 +11,9 @@ const Experience = () => {
                     verticalSpacing={24}
                     timelineItems={[
                         <div key={0} className="flex gap-4">
-                            <div className="h-fit">
+                            <a href="https://pesira.io/" target="_blank" className="h-fit">
                                 <Image src="/pesira-logo.jpeg" width={40} height={40} alt="Pesira logo" />
-                            </div>
+                            </a>
                             <div>
                                 <div>
                                     <p className="font-bold">Frontend Developer</p>
@@ -30,9 +30,9 @@ const Experience = () => {
                             </div>
                         </div>,
                         <div key={1} className="flex gap-4">
-                            <div className="h-fit">
+                            <a href="" className="h-fit">
                                 <Image src="/default.png" width={40} height={40} alt="Pesira logo" />
-                            </div>
+                            </a>
                             <div>
                                 <div>
                                     <p className="font-bold">Full Stack Software Developer</p>
@@ -49,9 +49,9 @@ const Experience = () => {
                             </div>
                         </div>,
                         <div key={2} className="flex gap-4">
-                            <div className="h-fit">
+                            <a href="https://thejitu.com/" target="_blank" className="h-fit">
                                 <Image src="/thejitu_com_logo.jpeg" width={40} height={40} alt="Pesira logo" />
-                            </div>
+                            </a>
                             <div>
                                 <div>
                                     <p className="font-bold">Full Stack Software Developer</p>
@@ -67,14 +67,11 @@ const Experience = () => {
                                 </div>
                             </div>
                         </div>,
-
-
                     ]} />
                 <div>
                     <Image src="/experience.png" width={400} height={400} alt="Pesira logo" />
                 </div>
             </div>
-
         </div>
 
     )

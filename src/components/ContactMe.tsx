@@ -33,7 +33,7 @@ const ContactMe = () => {
               <input className='w-full rounded-lg p-4 bg-transparent border' type="email" placeholder='youremail@email.com' name="email" />
             </div>
             <div className='my-4'>
-              <textarea className='w-full rounded-lg p-4 bg-transparent border text-black' name="message" id="" cols={30} rows={5} placeholder='Message Here'></textarea>
+              <textarea className='w-full rounded-lg p-4 bg-transparent border ' name="message" id="" cols={30} rows={5} placeholder='Message Here'></textarea>
             </div>
             <button type="submit" className='send-btn py-2 px-4 rounded-[5px] w-1/4'>SEND</button>
           </form>
