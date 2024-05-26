@@ -29,7 +29,7 @@ const Header = () => {
       <div className="logo font-bold text-3xl sm:text-4xl cursor-pointer">mwonge<span className=''>ss</span></div>
       <div className='hidden header-links sm:flex items-center gap-8 font-bold text-sm'>
         <Link href="/#home">HOME</Link>
-        <Link href="/json">JSON</Link>
+        <Link href="/#experience">EXPERIENCE</Link>
         <Link href="/#about">ABOUT</Link>
         <Link href="/#skills">SKILLS</Link>
         <Link href="/#projects">PROJECTS</Link>

@@ -23,13 +23,13 @@ export function Mobile() {
                     <FaHamburger />
                 </p>
             </SheetTrigger>
-            <SheetContent side={"left"}>
+            <SheetContent side={"left"} className='bg-black'>
                 <div className='header-links flex flex-col  gap-8 font-bold text-sm'>
                     <SheetClose asChild>
                         <Link href="/#home">HOME</Link>
                     </SheetClose>
                     <SheetClose asChild>
-                        <Link href="/json">JSON</Link>
+                    <Link href="/#experience">EXPERIENCE</Link>
                     </SheetClose>
                     <SheetClose asChild>
                         <Link href="/#about">ABOUT</Link>
