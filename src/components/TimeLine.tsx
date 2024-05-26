@@ -6,7 +6,7 @@ interface ITimelineProps {
     timelineItems: Array<ReactNode>
 }
 
-export default ({ timelineItems, verticalSpacing = 8 }: ITimelineProps) => {
+export const TimeLine = ({ timelineItems, verticalSpacing = 8 }: ITimelineProps) => {
     return (
         <div className='flex flex-col'>
             {timelineItems.map((element, index) => {

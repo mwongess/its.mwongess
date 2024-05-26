@@ -1,6 +1,6 @@
 import Image from "next/image"
-import TimeLine from "./TimeLine"
 import { IoDiamondOutline } from "react-icons/io5";
+import { TimeLine } from "./TimeLine";
 
 const Experience = () => {
     return (
