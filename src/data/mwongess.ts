@@ -116,33 +116,33 @@ export const mwongess = {
       github: "https://github.com/mwongess/connectify",
       preview: "",
     },
-    {
-      name: "mssql-mate",
-      private: false,
-      description:
-        "An exciting npm package ,empowering effortless connectivity, seamless querying, and the smooth execution of procedures within an SQL Server database. Enjoy the power and ease! 🔥🎉",
-      technologies: ["Node", "Typescript", "MSSQL"],
-      github: "https://github.com/mwongess/mssql-mate",
-      preview: "",
-    },
-    {
-      name: "send-it",
-      private: false,
-      description:
-        "Platform designed to simplify the process of shipping items by providing you with accurate quotes tailored to the weight of your products.Also intergrated with map for easy tracking.",
-      technologies: ["Angular", "CSS", "Node", "Express", "MSSQL"],
-      github: "https://github.com/mwongess/send-it",
-      preview: "",
-    },
-    {
-      name: "member cart",
-      private: false,
-      description:
-        "🔒 Members-Only Access: This app is designed exclusively for members, ensuring that your shopping experience is private and intimate..",
-      technologies: ["Wordpress",],
-      github: "https://github.com/mwongess/member-cart",
-      preview: "",
-    },
+    // {
+    //   name: "mssql-mate",
+    //   private: false,
+    //   description:
+    //     "An exciting npm package ,empowering effortless connectivity, seamless querying, and the smooth execution of procedures within an SQL Server database. Enjoy the power and ease! 🔥🎉",
+    //   technologies: ["Node", "Typescript", "MSSQL"],
+    //   github: "https://github.com/mwongess/mssql-mate",
+    //   preview: "",
+    // },
+    // {
+    //   name: "send-it",
+    //   private: false,
+    //   description:
+    //     "Platform designed to simplify the process of shipping items by providing you with accurate quotes tailored to the weight of your products.Also intergrated with map for easy tracking.",
+    //   technologies: ["Angular", "CSS", "Node", "Express", "MSSQL"],
+    //   github: "https://github.com/mwongess/send-it",
+    //   preview: "",
+    // },
+    // {
+    //   name: "member cart",
+    //   private: false,
+    //   description:
+    //     "🔒 Members-Only Access: This app is designed exclusively for members, ensuring that your shopping experience is private and intimate..",
+    //   technologies: ["Wordpress",],
+    //   github: "https://github.com/mwongess/member-cart",
+    //   preview: "",
+    // },
 
     // { name: "ngozi-natural", description: "" },
 

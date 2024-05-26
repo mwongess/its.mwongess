@@ -4,7 +4,7 @@ import { FiLock, FiUnlock } from 'react-icons/fi'
 
 const Project = ({ project }: { project: any }) => {
   return (
-    <div className='project p-3 rounded-lg'>
+    <div className='project p-3 rounded-xl'>
       <div className=''>
         <div className="header flex justify-between mb-4">
           <div className='flex gap-3'>
@@ -21,7 +21,7 @@ const Project = ({ project }: { project: any }) => {
           </div>
         </div>
         <h1 className='flex gap-3 items-center'>
-          <p className=' font-bold text-xl'>{project.name}</p>
+          <p className=' font-bold text-xl text-[#44bd7f]'>{project.name}</p>
           {
             project.private ? <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full  bg-blue-800 text-white h-fit'>Private <FiLock /></p> : <p className='flex gap-2 justify-center items-center px-3 py-1 rounded-full border border-blue-800  text-blue-800 h-fit'>Public <FiUnlock /></p>
           }

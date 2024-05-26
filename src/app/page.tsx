@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import ContactMe from '@/components/ContactMe'
+import Experience from '@/components/Experience'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
@@ -14,6 +15,7 @@ export default function Home() {
       <main className='flex flex-col justify-between min-h-screen p-4 sm:p-28'>
         <Hero />
         <About />
+        <Experience/>
         <Skills />
         <Projects />
         <ContactMe />

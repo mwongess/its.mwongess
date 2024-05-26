@@ -44,7 +44,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen gap-6'>
+    <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen gap-6 '>
       <a href="https://cloud.appwrite.io/card/64d0e85341c0e4147fd6">
         <Image className="pb-8 sm:pb-0" priority width={450} height={150} src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
       </a>

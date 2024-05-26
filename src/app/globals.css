@@ -75,10 +75,12 @@
 html {
   scroll-behavior: smooth !important;
 }
-
+body{
+  @apply text-[#fafcfc] bg-gradient-to-bl from-[#2a6049] to-[#1e1e28] via-[#1e1e28]
+}
 .logo span,
 .profession {
-  @apply text-[#23ce6b]
+  @apply text-[#2fd775]
 }
 .header-links a:hover{
   @apply text-[#23ce6b] scale-105 
@@ -102,16 +104,17 @@ html {
 }
 
 .project {
-  @apply flex flex-col justify-between gap-2 text-black shadow-md
+  @apply flex flex-col justify-between gap-2  shadow-md bg-[#33343c] border-t-4 border-[#9e9ea6]
 }
 
 .project:hover {
-  @apply transition-transform duration-1000 scale-105 bg-[#E31F71] border-none text-white
+  @apply transition-transform duration-1000 scale-105  border-none text-white
 }
 
 
 .scrolled {
-  @apply bg-slate-50 text-[#E31F71]
+  /* @apply bg-slate-50 text-[#E31F71] */
+  @apply backdrop-blur-md
 }
 
 button:hover {
