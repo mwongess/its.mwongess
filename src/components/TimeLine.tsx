@@ -28,7 +28,7 @@ const WrapperNode = ({
     return (
         <div className='flex flex-row gap-6'>
             <div className='flex flex-col items-center w-8'>
-                <div className='rounded-full w-8 h-8 items-center justify-center text-center text-[22px] bg-[#2fd775] text-white'>
+                <div className='rounded-full w-9 h-9 items-center justify-center text-center text-[22px] bg-[#2fd775] text-white'>
                     {/* {index + 1} */}
                 </div>
                 {index != maxChild && <div className='flex-1 w-0.5 bg-[#2fd775]'></div>}
