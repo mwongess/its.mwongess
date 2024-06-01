@@ -21,8 +21,8 @@ const Notification = () => {
             <p>
               Currently learning building{' '}
               <span className="underline">
-                <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank" rel="noopener noreferrer">
-                  Blockchain
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener noreferrer">
+                  Java
                 </a>
               </span>{' '}
               daps!
