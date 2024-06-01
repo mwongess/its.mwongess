@@ -22,7 +22,7 @@ const Notification = () => {
               Currently learning building with{' '}
               <span className="underline">
                 <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" rel="noopener noreferrer">
-                  Java
+                  Java!
                 </a>
               </span>{' '}
             </p>
