@@ -18,7 +18,7 @@ const Experience = () => {
                                 <div>
                                     <p className="font-bold">Frontend Developer</p>
                                     <p>Pesira (SBC Australia FT23) - Internship</p>
-                                    <p className="text-sm">May 2024- Present. 1 mo</p>
+                                    <p className="text-sm">May 2024- Present. 2 mos</p>
                                 </div>
                                 <div className="flex flex-wrap items-center gap-2 mt-6 font-bold">
                                     <p><IoDiamondOutline /></p>
