@@ -69,7 +69,7 @@ const Experience = () => {
                         </div>,
                     ]} />
                 <div>
-                    <Image src="/experience.png" width={400} height={400} alt="Pesira logo" />
+                    <Image src="/steps.svg" width={400} height={400} alt="Pesira logo" />
                 </div>
             </div>
         </div>

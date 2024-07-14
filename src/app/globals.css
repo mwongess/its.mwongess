@@ -80,7 +80,7 @@ body{
 }
 .logo span,
 .profession {
-  @apply text-[#2fd775]
+  @apply text-[]
 }
 .header-links a:hover{
   @apply text-[#23ce6b] scale-105 

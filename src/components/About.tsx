@@ -45,14 +45,12 @@ const About = () => {
 
   return (
     <div id='about' className='sm:flex justify-between items-center py-8 sm:pt-20 sm:min-h-screen gap-6 '>
-      <a href="https://cloud.appwrite.io/card/64d0e85341c0e4147fd6">
-        <Image className="pb-8 sm:pb-0" priority width={450} height={150} src="https://cloud.appwrite.io/v1/cards/cloud?userId=64d0e85341c0e4147fd6" alt="Appwrite Cloud Card" />
-      </a>
+      <Image className=" animated fadeInRight opacity-[0.9]" src="career.svg" priority height={350} width={400} quality={100} alt='illustration' />
       <div className='sm:w-1/2'>
-        <h1 className='font-bold text-3xl mb-8 sm:mb-12'>About Me</h1>
+        <h1 className='font-bold text-3xl mb-8 sm:mb-4 '>About Me</h1>
         <div>
-          <h1 className='mb-2 text-xl'>I&apos;m Amos Mwongela <br/> and I&apos;m a <span className='font-bold text-[#23ce6b] text-2xl'>{text}</span></h1>
-          <p className='text-lg'>My expertise spans across the entire software development stack, allowing me to tackle challenges with a holistic approach. From front-end design to back-end infrastructure, I take pride in delivering comprehensive solutions that not only meet but exceed the needs of users and stakeholders alike.</p>
+          <h1 className='mb-2 text-xl'>A Bsc Software Engineering Graduate and a Fullstack Developer </h1>
+          <p className='text-base'>My expertise spans across the entire software development stack, allowing me to tackle challenges with a holistic approach. From front-end design to back-end infrastructure, I take pride in delivering comprehensive solutions that not only meet but exceed the needs of users and stakeholders alike.</p>
         </div>
       </div>
     </div>
