@@ -10,7 +10,7 @@ const Hero = () => {
     router.push("#projects")
   }
   return (
-    <div className='flex flex-col sm:flex-row items-center justify-between gap-4  mb-[3rem]  sm:mb-0 bg-red'>
+    <div className='grid-background flex flex-col sm:flex-row items-center justify-between gap-4  mb-[3rem]  sm:mb-0'>
       <div className='flex flex-col gap-5 w-full sm:w-1/2'>
         <div>
           <h1 className='text-lg'>Hello 👋, my name is</h1>

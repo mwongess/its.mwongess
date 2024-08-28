@@ -68,23 +68,27 @@
   * {
     @apply border-border;
   }
- 
+
 }
 
 
 html {
   scroll-behavior: smooth !important;
 }
-body{
+
+body {
   @apply text-[#fafcfc] bg-gradient-to-bl from-[#2a6049] to-[#1e1e28] via-[#1e1e28]
 }
+
 .logo span,
 .profession {
   @apply text-[]
 }
-.header-links a:hover{
-  @apply text-[#23ce6b] scale-105 
+
+.header-links a:hover {
+  @apply text-[#23ce6b] scale-105
 }
+
 .contact-me,
 .send-btn {
   @apply bg-[#23ce6b] text-white
@@ -104,16 +108,17 @@ body{
 }
 
 .project {
-  @apply flex flex-col justify-between gap-2  shadow-md bg-[#33343c] border-t-4 border-[#9e9ea6]
+  @apply flex flex-col justify-between gap-2 shadow-md bg-[#33343c] border-t-4 border-[#9e9ea6]
 }
 
 .project:hover {
-  @apply transition-transform duration-1000 scale-105  border-none text-white
+  @apply transition-transform duration-1000 scale-105 border-none text-white
 }
 
-input,textarea{
+input, textarea {
   @apply border border-[#81818b]
 }
+
 .scrolled {
   /* @apply bg-slate-50 text-[#E31F71] */
   @apply backdrop-blur-md
@@ -123,3 +128,26 @@ button:hover {
   @apply scale-105
 }
 
+.grid-background {
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 4rem 4rem;
+  background-position: center center;
+  position: relative;
+  
+
+}
+
+.grid-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: radial-gradient(circle, transparent 20%, rgba(0, 8, 20, 0.3) 80%, rgba(0, 8, 20, 0.8) 100%); */
+  pointer-events: none;
+}
