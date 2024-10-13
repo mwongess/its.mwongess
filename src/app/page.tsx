@@ -17,7 +17,6 @@ export default function Home() {
       <main className='flex flex-col justify-between min-h-screen p-4 sm:p-28'>
         <Hero />
         <About />
-        <Experience />
         <Skills />
         <Projects />
         <ContactMe />
